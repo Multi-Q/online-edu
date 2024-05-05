@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.xuecheng</groupId>
+        <artifactId>online-edu-parent</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+        <relativePath>../online-edu-parent</relativePath> <!-- lookup parent from repository -->
+    </parent>
+    <packaging>pom</packaging>
+
+    <artifactId>online-edu-content</artifactId>
+    <name>online-edu-content</name>
+    <description>内容管理系统父工程</description>
+
+    <modules>
+        <module>online-edu-content-api</module>
+        <module>online-edu-content-model</module>
+        <module>online-edu-content-service</module>
+    </modules>
+
+</project>
