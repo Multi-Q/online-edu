@@ -17,6 +17,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableFeignClients(basePackages = {"com.xuecheng.content.feignclient"})
 public class ContentApplication {
     public static void main(String[] args) {
+
         SpringApplication.run(ContentApplication.class, args);
     }
 }
